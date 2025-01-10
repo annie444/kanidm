@@ -138,3 +138,34 @@ systemd-units = [
 	{ unit-name = "kanidm-unixd", enable = true}, 
 	{ unit-name = "kanidm-unixd-tasks", enable = true},
 ]
+
+## RPM Packaging
+# We only package unixd itself here as shared libraries must be packaged separarately due to multiarch rules.
+[package.metadata.generate-rpm]
+name = "kanidm-unixd"
+maintainer = "James Hodgkinson <james@terminaloutcomes.com>"
+assets = [
+    { source = "../../target/release/kanidm_ssh_authorizedkeys", dest = "/usr/sbin/kanidm_ssh_authorizedkeys", mode = "755", user = "root", group = "root" },
+    { source = "../../target/release/kanidm_unixd_tasks", dest = "/usr/sbin/kanidm_unixd_tasks", mode = "755", user = "root", group = "root" },
+    { source = "../../target/release/kanidm_unixd", dest = "/usr/sbin/kanidm_unixd", mode = "755", user = "root", group = "root" },
+    { source = "../../target/release/kanidm-unix", dest = "/usr/sbin/kanidm-unix", mode = "755", user = "root", group = "root" },
+    { source = "../../examples/unixd-safe-default", dest = "/etc/kanidm/unixd", mode = "644", user = "root", group = "root" },
+    { source = "../../examples/kanidm-safe-default", dest = "/etc/kanidm/config", mode = "644", user = "root", group = "root" },
+    { source = "../../examples/kanidm", dest = "/usr/share/kanidm-unixd/", mode = "444", user = "root", group = "root" },
+    { source = "../../examples/unixd", dest = "/usr/share/kanidm-unixd/", mode = "444", user = "root", group = "root" },
+]
+post_install_script = """
+echo "============================="
+echo "Thanks for installing Kanidm!"
+echo "============================="
+echo "Please ensure you modify the configuration files at /etc/kanidm/unixd and /etc/kanidm/config"
+echo "Full examples are in /usr/share/kanidm-unixd/"
+echo "PAM has already been autoconfigured by the libpam-kanidm package. To configure nsswitch, please follow instructions in https://kanidm.github.io/kanidm/master/integrations/pam_and_nsswitch.html"
+"""
+
+[package.metadata.generate-rpm.requires]
+glibc = "*"
+tpm2-tss = "*"
+openssl-devel = "*"
+libpam-kanidm = "*"
+libnss-kanidm = "*"
