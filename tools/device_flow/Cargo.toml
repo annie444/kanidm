@@ -20,7 +20,7 @@ doctest = false
 [dependencies]
 kanidm_proto = { workspace = true }
 anyhow = { workspace = true }
-oauth2 = "4.4.2"
+oauth2 = "5.0.0"
 reqwest = { version = "0.12.12", default-features = false, features = [
     "rustls-tls",
 ] }
