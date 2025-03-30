@@ -141,7 +141,7 @@ argon2 = { version = "0.5.3", features = ["alloc"] }
 askama = { version = "0.12.1", features = ["serde", "with-axum"] }
 askama_axum = { version = "0.4.0" }
 async-trait = "^0.1.88"
-axum = { version = "0.8.1", features = [
+axum = { version = "0.8.3", features = [
     "form",
     "json",
     "macros",
@@ -157,7 +157,7 @@ base64 = "^0.22.1"
 base64urlsafedata = "0.5.1"
 bitflags = "^2.9.0"
 bytes = "^1.10.1"
-clap = { version = "^4.5.32", features = ["derive", "env"] }
+clap = { version = "^4.5.34", features = ["derive", "env"] }
 clap_complete = "^4.5.47"
 # Forced by saffron/cron
 chrono = "^0.4.40"
@@ -261,7 +261,7 @@ svg = "0.13.1"
 syn = { version = "2.0.100", features = ["full"] }
 tempfile = "3.19.1"
 testkit-macros = { path = "./server/testkit-macros" }
-time = { version = "^0.3.40", features = ["formatting", "local-offset"] }
+time = { version = "^0.3.41", features = ["formatting", "local-offset"] }
 
 tokio = "^1.44.1"
 tokio-openssl = "^0.6.5"
@@ -289,7 +289,7 @@ webauthn-rs = { version = "0.5.1", features = ["preview-features"] }
 webauthn-rs-core = "0.5.1"
 webauthn-rs-proto = "0.5.1"
 
-whoami = "^1.5.2"
+whoami = "^1.6.0"
 walkdir = "2"
 
 x509-cert = "0.2.5"
