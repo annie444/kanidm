@@ -155,7 +155,7 @@ axum-htmx = { version = "0.5.0", features = ["serde", "guards"] }
 base32 = "^0.5.1"
 base64 = "^0.22.1"
 base64urlsafedata = "0.5.1"
-bitflags = "^2.9.0"
+bitflags = "^2.9.1"
 bytes = "^1.10.1"
 clap = { version = "^4.5.38", features = ["derive", "env"] }
 clap_complete = "^4.5.50"
@@ -259,7 +259,7 @@ sshkey-attest = "^0.5.0"
 sshkeys = "0.3.3"
 svg = "0.13.1"
 syn = { version = "2.0.101", features = ["full"] }
-tempfile = "3.19.1"
+tempfile = "3.20.0"
 testkit-macros = { path = "./server/testkit-macros" }
 time = { version = "^0.3.41", features = ["formatting", "local-offset"] }
 
