@@ -162,7 +162,7 @@ clap_complete = "^4.5.54"
 # Forced by saffron/cron
 chrono = "^0.4.41"
 compact_jwt = { version = "^0.4.2", default-features = false }
-concread = "^0.5.5"
+concread = "^0.5.6"
 cron = "0.12.1"
 crossbeam = "0.8.4"
 csv = "1.3.1"
@@ -196,13 +196,13 @@ lazy_static = "^1.5.0"
 ldap3_client = "^0.5.2"
 ldap3_proto = { version = "^0.5.2", features = ["serde"] }
 
-libc = "^0.2.173"
+libc = "^0.2.174"
 libnss = "^0.8.0"
 libsqlite3-sys = "^0.25.2"
 lodepng = "3.11.0"
 lru = "^0.13.0"
 mathru = "^0.13.0"
-mimalloc = "0.1.46"
+mimalloc = "0.1.47"
 notify-debouncer-full = { version = "0.1" }
 num_enum = "^0.5.11"
 oauth2_ext = { version = "^4.4.2", package = "oauth2", default-features = false }
@@ -258,7 +258,7 @@ smolset = "^1.3.1"
 sshkey-attest = "^0.5.0"
 sshkeys = "0.3.3"
 svg = "0.13.1"
-syn = { version = "2.0.103", features = ["full"] }
+syn = { version = "2.0.104", features = ["full"] }
 tempfile = "3.20.0"
 testkit-macros = { path = "./server/testkit-macros" }
 time = { version = "^0.3.41", features = ["formatting", "local-offset"] }
