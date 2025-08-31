@@ -157,7 +157,7 @@ base64 = "^0.22.1"
 base64urlsafedata = "0.5.1"
 bitflags = "^2.9.3"
 bytes = "^1.10.1"
-clap = { version = "^4.5.45", features = ["derive", "env"] }
+clap = { version = "^4.5.46", features = ["derive", "env"] }
 clap_complete = "^4.5.57"
 # Forced by saffron/cron
 chrono = "^0.4.41"
@@ -202,7 +202,7 @@ libsqlite3-sys = "^0.25.2"
 lodepng = "3.12.1"
 lru = "^0.13.0"
 mathru = "^0.13.0"
-mimalloc = "0.1.47"
+mimalloc = "0.1.48"
 notify-debouncer-full = { version = "0.1" }
 num_enum = "^0.5.11"
 oauth2_ext = { version = "^4.4.2", package = "oauth2", default-features = false }
@@ -272,7 +272,7 @@ tracing = { version = "^0.1.41", features = [
     "max_level_trace",
     "release_max_level_debug",
 ] }
-tracing-subscriber = { version = "^0.3.19", features = ["env-filter"] }
+tracing-subscriber = { version = "^0.3.20", features = ["env-filter"] }
 tracing-forest = "^0.1.6"
 
 url = "^2.5.2"
