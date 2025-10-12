@@ -196,7 +196,7 @@ lazy_static = "^1.5.0"
 ldap3_client = "^0.5.2"
 ldap3_proto = { version = "^0.5.2", features = ["serde"] }
 
-libc = "^0.2.176"
+libc = "^0.2.177"
 libnss = "^0.8.0"
 libsqlite3-sys = "^0.25.2"
 lodepng = "3.12.1"
@@ -230,7 +230,7 @@ qrcode = "^0.12.0"
 quote = "1"
 rand = "^0.8.5"
 rand_chacha = "0.3.1"
-regex = "1.11.3"
+regex = "1.12.1"
 reqwest = { version = "0.12.23", default-features = false, features = [
     "cookies",
     "http2",
