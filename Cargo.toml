@@ -127,7 +127,7 @@ kanidmd_lib_macros = { path = "./server/lib-macros", version = "=1.5.0-dev" }
 kanidmd_testkit = { path = "./server/testkit", version = "=1.5.0-dev" }
 kanidm_build_profiles = { path = "./libs/profiles", version = "=1.5.0-dev" }
 kanidm_client = { path = "./libs/client", version = "=1.5.0-dev" }
-kanidm-hsm-crypto = "^0.2.0"
+kanidm-hsm-crypto = "^0.3.4"
 kanidm_lib_crypto = { path = "./libs/crypto", version = "=1.5.0-dev" }
 kanidm_lib_file_permissions = { path = "./libs/file_permissions", version = "=1.5.0-dev" }
 kanidm_proto = { path = "./proto", version = "=1.5.0-dev" }
@@ -139,7 +139,7 @@ sketching = { path = "./libs/sketching", version = "=1.5.0-dev" }
 anyhow = { version = "1.0.100" }
 argon2 = { version = "0.5.3", features = ["alloc"] }
 askama = { version = "0.12.1", features = ["serde", "with-axum"] }
-askama_axum = { version = "0.4.0" }
+askama_axum = { version = "0.5.0" }
 async-trait = "^0.1.89"
 axum = { version = "0.8.6", features = [
     "form",
@@ -151,30 +151,30 @@ axum = { version = "0.8.6", features = [
     "tokio",
     "tracing",
 ] }
-axum-htmx = { version = "0.5.0", features = ["serde", "guards"] }
+axum-htmx = { version = "0.8.1", features = ["serde", "guards"] }
 base32 = "^0.5.1"
 base64 = "^0.22.1"
 base64urlsafedata = "0.5.1"
 bitflags = "^2.9.4"
 bytes = "^1.10.1"
-clap = { version = "^4.5.48", features = ["derive", "env"] }
-clap_complete = "^4.5.58"
+clap = { version = "^4.5.49", features = ["derive", "env"] }
+clap_complete = "^4.5.59"
 # Forced by saffron/cron
 chrono = "^0.4.42"
 compact_jwt = { version = "^0.4.2", default-features = false }
 concread = "^0.5.7"
-cron = "0.12.1"
+cron = "0.15.0"
 crossbeam = "0.8.4"
-csv = "1.3.1"
-dialoguer = "0.10.4"
+csv = "1.4.0"
+dialoguer = "0.12.0"
 dhat = "0.3.3"
 dyn-clone = "^1.0.20"
 fernet = "^0.2.1"
 filetime = "^0.2.26"
-fs4 = "^0.8.3"
+fs4 = "^0.13.1"
 futures = "^0.3.31"
 futures-util = { version = "^0.3.30", features = ["sink"] }
-gix = { version = "0.64.0", default-features = false }
+gix = { version = "0.71.0", default-features = false }
 hashbrown = { version = "0.14.3", features = ["serde", "inline-more", "ahash"] }
 hex = "^0.4.3"
 http = "1.3.1"
@@ -183,68 +183,68 @@ hyper = { version = "1.7.0", features = [
 ] } # hyper full includes client/server/http2
 hyper-util = { version = "0.1.17", features = ["server", "tokio"] }
 idlset = "^0.2.5"
-image = { version = "0.24.9", default-features = false, features = [
+image = { version = "0.25.8", default-features = false, features = [
     "gif",
     "jpeg",
     "webp",
 ] }
-itertools = "0.13.0"
+itertools = "0.14.0"
 enum-iterator = "2.3.0"
 kanidmd_web_ui_shared = { path = "./server/web_ui/shared" }
 # REMOVE this
 lazy_static = "^1.5.0"
-ldap3_client = "^0.5.2"
-ldap3_proto = { version = "^0.5.2", features = ["serde"] }
+ldap3_client = "^0.6.1"
+ldap3_proto = { version = "^0.6.2", features = ["serde"] }
 
 libc = "^0.2.177"
-libnss = "^0.8.0"
+libnss = "^0.9.0"
 libsqlite3-sys = "^0.25.2"
 lodepng = "3.12.1"
-lru = "^0.13.0"
-mathru = "^0.13.0"
+lru = "^0.16.2"
+mathru = "^0.16.2"
 mimalloc = "0.1.48"
-notify-debouncer-full = { version = "0.1" }
-num_enum = "^0.5.11"
+notify-debouncer-full = { version = "0.6" }
+num_enum = "^0.7.5"
 oauth2_ext = { version = "^4.4.2", package = "oauth2", default-features = false }
 openssl-sys = "^0.9"
-openssl = "^0.10.73"
+openssl = "^0.10.74"
 
 opentelemetry = { version = "0.20.0" }
 opentelemetry_api = { version = "0.20.0", features = ["logs", "metrics"] }
-opentelemetry-otlp = { version = "0.13.0", default-features = false, features = [
+opentelemetry-otlp = { version = "0.31.0", default-features = false, features = [
     "serde",
     "logs",
     "metrics",
     "http-proto",
     "grpc-tonic",
 ] }
-opentelemetry_sdk = "0.20.0"
-tracing-opentelemetry = "0.21.0"
+opentelemetry_sdk = "0.31.0"
+tracing-opentelemetry = "0.32.0"
 
 paste = "^1.0.14"
 peg = "0.8"
 pkg-config = "^0.3.32"
 prctl = "1.0.0"
 proc-macro2 = "1.0.101"
-qrcode = "^0.12.0"
+qrcode = "^0.14.1"
 quote = "1"
-rand = "^0.8.5"
-rand_chacha = "0.3.1"
-regex = "1.12.1"
-reqwest = { version = "0.12.23", default-features = false, features = [
+rand = "^0.9.2"
+rand_chacha = "0.9.0"
+regex = "1.12.2"
+reqwest = { version = "0.12.24", default-features = false, features = [
     "cookies",
     "http2",
     "json",
     "gzip",
     "rustls-tls-native-roots",
 ] }
-rusqlite = { version = "^0.28.0", features = ["array", "bundled"] }
+rusqlite = { version = "^0.37.0", features = ["array", "bundled"] }
 rustls = { version = "0.23.23", default-features = false, features = [
     "aws_lc_rs",
 ] }
 
 sd-notify = "^0.4.5"
-selinux = "^0.4.6"
+selinux = "^0.5.3"
 serde = "^1.0.228"
 serde_cbor = { version = "0.12.0-dev", package = "serde_cbor_2" }
 serde_json = "^1.0.145"
@@ -252,22 +252,22 @@ serde_urlencoded = "^0.7.1"
 serde_with = "3.15.0"
 sha-crypt = "0.5.0"
 sha2 = "0.10.9"
-shellexpand = "^2.1.2"
+shellexpand = "^3.1.1"
 smartstring = "^1.0.1"
 smolset = "^1.3.1"
 sshkey-attest = "^0.5.0"
 sshkeys = "0.3.4"
-svg = "0.13.1"
-syn = { version = "2.0.106", features = ["full"] }
+svg = "0.18.0"
+syn = { version = "2.0.107", features = ["full"] }
 tempfile = "3.23.0"
 testkit-macros = { path = "./server/testkit-macros" }
 time = { version = "^0.3.44", features = ["formatting", "local-offset"] }
 
-tokio = "^1.47.1"
+tokio = "^1.48.0"
 tokio-openssl = "^0.6.5"
 tokio-util = "^0.7.16"
 
-toml = "^0.5.11"
+toml = "^0.9.6"
 tracing = { version = "^0.1.41", features = [
     "max_level_trace",
     "release_max_level_debug",
@@ -277,8 +277,8 @@ tracing-forest = "^0.1.6"
 
 url = "^2.5.2"
 urlencoding = "2.1.3"
-utoipa = { version = "4.2.0", features = ["url", "uuid"] }
-utoipa-swagger-ui = "6.0.0"
+utoipa = { version = "5.4.0", features = ["url", "uuid"] }
+utoipa-swagger-ui = "9.0.2"
 uuid = "^1.18.1"
 
 webauthn-authenticator-rs = { version = "0.5.1", features = [
@@ -294,7 +294,7 @@ walkdir = "2"
 
 x509-cert = "0.2.5"
 
-zxcvbn = "^2.2.2"
+zxcvbn = "^3.1.0"
 
-nonempty = "0.8.1"
+nonempty = "0.12.0"
 
