@@ -24,9 +24,9 @@ askama = { workspace = true, features = ["with-axum"] }
 askama_axum = { workspace = true }
 axum = { workspace = true }
 axum-htmx = { workspace = true }
-axum-extra = { version = "0.12.1", features = ["cookie"] }
+axum-extra = { version = "0.12.2", features = ["cookie"] }
 axum-macros = "0.5.0"
-axum-server = { version = "0.7.2", default-features = false }
+axum-server = { version = "0.7.3", default-features = false }
 bytes = { workspace = true }
 chrono = { workspace = true }
 compact_jwt = { workspace = true }
