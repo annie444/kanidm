@@ -231,7 +231,7 @@ quote = "1"
 rand = "^0.9.2"
 rand_chacha = "0.9.0"
 regex = "1.12.2"
-reqwest = { version = "0.12.24", default-features = false, features = [
+reqwest = { version = "0.12.25", default-features = false, features = [
     "cookies",
     "http2",
     "json",
