@@ -160,9 +160,9 @@ bytes = "^1.11.0"
 clap = { version = "^4.5.54", features = ["derive", "env"] }
 clap_complete = "^4.5.65"
 # Forced by saffron/cron
-chrono = "^0.4.42"
+chrono = "^0.4.43"
 compact_jwt = { version = "^0.4.2", default-features = false }
-concread = "^0.5.7"
+concread = "^0.5.8"
 cron = "0.15.0"
 crossbeam = "0.8.4"
 csv = "1.4.0"
@@ -174,7 +174,7 @@ filetime = "^0.2.26"
 fs4 = "^0.13.1"
 futures = "^0.3.31"
 futures-util = { version = "^0.3.30", features = ["sink"] }
-gix = { version = "0.71.0", default-features = false }
+gix = { version = "0.72.1", default-features = false }
 hashbrown = { version = "0.14.3", features = ["serde", "inline-more", "ahash"] }
 hex = "^0.4.3"
 http = "1.4.0"
@@ -219,7 +219,7 @@ opentelemetry-otlp = { version = "0.31.0", default-features = false, features = 
     "grpc-tonic",
 ] }
 opentelemetry_sdk = "0.31.0"
-tracing-opentelemetry = "0.32.0"
+tracing-opentelemetry = "0.32.1"
 
 paste = "^1.0.14"
 peg = "0.8"
@@ -261,7 +261,7 @@ svg = "0.18.0"
 syn = { version = "2.0.114", features = ["full"] }
 tempfile = "3.24.0"
 testkit-macros = { path = "./server/testkit-macros" }
-time = { version = "^0.3.44", features = ["formatting", "local-offset"] }
+time = { version = "^0.3.45", features = ["formatting", "local-offset"] }
 
 tokio = "^1.49.0"
 tokio-openssl = "^0.6.5"
@@ -273,7 +273,7 @@ tracing = { version = "^0.1.44", features = [
     "release_max_level_debug",
 ] }
 tracing-subscriber = { version = "^0.3.22", features = ["env-filter"] }
-tracing-forest = "^0.1.6"
+tracing-forest = "^0.3.1"
 
 url = "^2.5.2"
 urlencoding = "2.1.3"
