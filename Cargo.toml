@@ -170,7 +170,7 @@ dialoguer = "0.12.0"
 dhat = "0.3.3"
 dyn-clone = "^1.0.20"
 fernet = "^0.2.1"
-filetime = "^0.2.26"
+filetime = "^0.2.27"
 fs4 = "^0.13.1"
 futures = "^0.3.31"
 futures-util = { version = "^0.3.30", features = ["sink"] }
@@ -203,7 +203,7 @@ lodepng = "3.12.1"
 lru = "^0.16.3"
 mathru = "^0.16.2"
 mimalloc = "0.1.48"
-notify-debouncer-full = { version = "0.6" }
+notify-debouncer-full = { version = "0.7" }
 num_enum = "^0.7.5"
 oauth2_ext = { version = "^4.4.2", package = "oauth2", default-features = false }
 openssl-sys = "^0.9"
@@ -225,7 +225,7 @@ paste = "^1.0.14"
 peg = "0.8"
 pkg-config = "^0.3.32"
 prctl = "1.0.0"
-proc-macro2 = "1.0.105"
+proc-macro2 = "1.0.106"
 qrcode = "^0.14.1"
 quote = "1"
 rand = "^0.9.2"
@@ -251,7 +251,7 @@ serde_json = "^1.0.149"
 serde_urlencoded = "^0.7.1"
 serde_with = "3.16.1"
 sha-crypt = "0.5.0"
-sha2 = "0.11.0-rc"
+sha2 = "0.11.0-rc.4"
 shellexpand = "^3.1.1"
 smartstring = "^1.0.1"
 smolset = "^1.3.1"
@@ -261,7 +261,7 @@ svg = "0.18.0"
 syn = { version = "2.0.114", features = ["full"] }
 tempfile = "3.24.0"
 testkit-macros = { path = "./server/testkit-macros" }
-time = { version = "^0.3.45", features = ["formatting", "local-offset"] }
+time = { version = "^0.3.46", features = ["formatting", "local-offset"] }
 
 tokio = "^1.49.0"
 tokio-openssl = "^0.6.5"
@@ -279,7 +279,7 @@ url = "^2.5.2"
 urlencoding = "2.1.3"
 utoipa = { version = "5.4.0", features = ["url", "uuid"] }
 utoipa-swagger-ui = "9.0.2"
-uuid = "^1.19.0"
+uuid = "^1.20.0"
 
 webauthn-authenticator-rs = { version = "0.5.1", features = [
     "softpasskey",
