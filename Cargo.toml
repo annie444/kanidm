@@ -157,12 +157,12 @@ base64 = "^0.22.1"
 base64urlsafedata = "0.5.1"
 bitflags = "^2.10.0"
 bytes = "^1.11.0"
-clap = { version = "^4.5.54", features = ["derive", "env"] }
+clap = { version = "^4.5.56", features = ["derive", "env"] }
 clap_complete = "^4.5.65"
 # Forced by saffron/cron
 chrono = "^0.4.43"
 compact_jwt = { version = "^0.4.2", default-features = false }
-concread = "^0.5.8"
+concread = "^0.5.9"
 cron = "0.15.0"
 crossbeam = "0.8.4"
 csv = "1.4.0"
@@ -289,7 +289,7 @@ webauthn-rs = { version = "0.5.1", features = ["preview-features"] }
 webauthn-rs-core = "0.5.1"
 webauthn-rs-proto = "0.5.1"
 
-whoami = "^2.0.2"
+whoami = "^2.1.0"
 walkdir = "2"
 
 x509-cert = "0.2.5"
