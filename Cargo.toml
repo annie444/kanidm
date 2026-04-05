@@ -178,7 +178,7 @@ gix = { version = "0.72.1", default-features = false }
 hashbrown = { version = "0.14.3", features = ["serde", "inline-more", "ahash"] }
 hex = "^0.4.3"
 http = "1.4.0"
-hyper = { version = "1.8.1", features = [
+hyper = { version = "1.9.0", features = [
     "full",
 ] } # hyper full includes client/server/http2
 hyper-util = { version = "0.1.20", features = ["server", "tokio"] }
@@ -196,7 +196,7 @@ lazy_static = "^1.5.0"
 ldap3_client = "^0.7.0"
 ldap3_proto = { version = "^0.7.0", features = ["serde"] }
 
-libc = "^0.2.183"
+libc = "^0.2.184"
 libnss = "^0.9.0"
 libsqlite3-sys = "^0.25.2"
 lodepng = "3.12.2"
@@ -263,7 +263,7 @@ tempfile = "3.27.0"
 testkit-macros = { path = "./server/testkit-macros" }
 time = { version = "^0.3.47", features = ["formatting", "local-offset"] }
 
-tokio = "^1.50.0"
+tokio = "^1.51.0"
 tokio-openssl = "^0.6.5"
 tokio-util = "^0.7.18"
 
