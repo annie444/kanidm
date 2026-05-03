@@ -127,7 +127,7 @@ kanidmd_lib_macros = { path = "./server/lib-macros", version = "=1.5.0-dev" }
 kanidmd_testkit = { path = "./server/testkit", version = "=1.5.0-dev" }
 kanidm_build_profiles = { path = "./libs/profiles", version = "=1.5.0-dev" }
 kanidm_client = { path = "./libs/client", version = "=1.5.0-dev" }
-kanidm-hsm-crypto = "^0.3.5"
+kanidm-hsm-crypto = "^0.3.6"
 kanidm_lib_crypto = { path = "./libs/crypto", version = "=1.5.0-dev" }
 kanidm_lib_file_permissions = { path = "./libs/file_permissions", version = "=1.5.0-dev" }
 kanidm_proto = { path = "./proto", version = "=1.5.0-dev" }
@@ -158,7 +158,7 @@ base64urlsafedata = "0.5.1"
 bitflags = "^2.11.1"
 bytes = "^1.11.1"
 clap = { version = "^4.6.1", features = ["derive", "env"] }
-clap_complete = "^4.6.2"
+clap_complete = "^4.6.3"
 # Forced by saffron/cron
 chrono = "^0.4.44"
 compact_jwt = { version = "^0.4.2", default-features = false }
@@ -171,7 +171,7 @@ dhat = "0.3.3"
 dyn-clone = "^1.0.20"
 fernet = "^0.2.1"
 filetime = "^0.2.27"
-fs4 = "^1.0.2"
+fs4 = "^1.1.0"
 futures = "^0.3.32"
 futures-util = { version = "^0.3.30", features = ["sink"] }
 gix = { version = "0.72.1", default-features = false }
@@ -193,14 +193,14 @@ enum-iterator = "2.3.0"
 kanidmd_web_ui_shared = { path = "./server/web_ui/shared" }
 # REMOVE this
 lazy_static = "^1.5.0"
-ldap3_client = "^0.7.0"
+ldap3_client = "^0.7.1"
 ldap3_proto = { version = "^0.7.0", features = ["serde"] }
 
 libc = "^0.2.186"
 libnss = "^0.9.0"
 libsqlite3-sys = "^0.25.2"
 lodepng = "3.12.2"
-lru = "^0.17.0"
+lru = "^0.18.0"
 mathru = "^0.16.2"
 mimalloc = "0.1.50"
 notify-debouncer-full = { version = "0.7" }
@@ -239,17 +239,17 @@ reqwest = { version = "0.12.28", default-features = false, features = [
     "rustls-tls-native-roots",
 ] }
 rusqlite = { version = "^0.37.0", features = ["array", "bundled"] }
-rustls = { version = "0.23.39", default-features = false, features = [
+rustls = { version = "0.23.40", default-features = false, features = [
     "aws_lc_rs",
 ] }
 
 sd-notify = "^0.5.0"
-selinux = "^0.6.1"
+selinux = "^0.6.2"
 serde = "^1.0.228"
 serde_cbor = { version = "0.12.0-dev", package = "serde_cbor_2" }
 serde_json = "^1.0.149"
 serde_urlencoded = "^0.7.1"
-serde_with = "3.18.0"
+serde_with = "3.19.0"
 sha-crypt = "0.6.0"
 sha2 = "0.11.0"
 shellexpand = "^3.1.2"
