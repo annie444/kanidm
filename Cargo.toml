@@ -202,7 +202,7 @@ libsqlite3-sys = "^0.25.2"
 lodepng = "3.12.2"
 lru = "^0.18.0"
 mathru = "^0.16.2"
-mimalloc = "0.1.50"
+mimalloc = "0.1.52"
 notify-debouncer-full = { version = "0.7" }
 num_enum = "^0.7.6"
 oauth2_ext = { version = "^4.4.2", package = "oauth2", default-features = false }
@@ -219,7 +219,7 @@ opentelemetry-otlp = { version = "0.32.0", default-features = false, features = 
     "grpc-tonic",
 ] }
 opentelemetry_sdk = "0.32.0"
-tracing-opentelemetry = "0.32.1"
+tracing-opentelemetry = "0.33.0"
 
 paste = "^1.0.14"
 peg = "0.8"
@@ -247,7 +247,7 @@ sd-notify = "^0.5.0"
 selinux = "^0.6.2"
 serde = "^1.0.228"
 serde_cbor = { version = "0.12.0-dev", package = "serde_cbor_2" }
-serde_json = "^1.0.149"
+serde_json = "^1.0.150"
 serde_urlencoded = "^0.7.1"
 serde_with = "3.20.0"
 sha-crypt = "0.6.0"
