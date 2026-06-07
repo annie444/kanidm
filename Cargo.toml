@@ -155,12 +155,12 @@ axum-htmx = { version = "0.8.1", features = ["serde", "guards"] }
 base32 = "^0.5.1"
 base64 = "^0.22.1"
 base64urlsafedata = "0.5.1"
-bitflags = "^2.11.1"
+bitflags = "^2.13.0"
 bytes = "^1.11.1"
 clap = { version = "^4.6.1", features = ["derive", "env"] }
 clap_complete = "^4.6.5"
 # Forced by saffron/cron
-chrono = "^0.4.44"
+chrono = "^0.4.45"
 compact_jwt = { version = "^0.4.2", default-features = false }
 concread = "^0.5.10"
 cron = "0.16.0"
@@ -249,7 +249,7 @@ serde = "^1.0.228"
 serde_cbor = { version = "0.12.0-dev", package = "serde_cbor_2" }
 serde_json = "^1.0.150"
 serde_urlencoded = "^0.7.1"
-serde_with = "3.20.0"
+serde_with = "3.21.0"
 sha-crypt = "0.6.0"
 sha2 = "0.11.0"
 shellexpand = "^3.1.2"
