@@ -163,7 +163,7 @@ clap_complete = "^4.6.5"
 chrono = "^0.4.45"
 compact_jwt = { version = "^0.4.2", default-features = false }
 concread = "^0.5.10"
-cron = "0.16.0"
+cron = "0.17.0"
 crossbeam = "0.8.4"
 csv = "1.4.0"
 dialoguer = "0.12.0"
@@ -188,7 +188,7 @@ image = { version = "0.25.10", default-features = false, features = [
     "jpeg",
     "webp",
 ] }
-itertools = "0.14.0"
+itertools = "0.15.0"
 enum-iterator = "2.3.0"
 kanidmd_web_ui_shared = { path = "./server/web_ui/shared" }
 # REMOVE this
