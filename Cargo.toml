@@ -153,7 +153,7 @@ axum = { version = "0.8.9", features = [
 ] }
 axum-htmx = { version = "0.8.1", features = ["serde", "guards"] }
 base32 = "^0.5.1"
-base64 = "^0.22.1"
+base64 = "^0.23.0"
 base64urlsafedata = "0.5.1"
 bitflags = "^2.13.0"
 bytes = "^1.11.1"
