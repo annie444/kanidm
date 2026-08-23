@@ -752,9 +752,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.4.2"
+version = "1.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5d262e149917187838d5b42777c8253bcb64500067342904e7d429499a6f277e"
+checksum = "509591b7bcd67f4ef775afad7662703b4935daaa6ec0e5605cfb1090b32a2b6d"
 dependencies = [
  "find-msvc-tools",
  "jobserver",
@@ -4010,9 +4010,9 @@ dependencies = [
 
 [[package]]
 name = "ldap3_client"
-version = "0.8.0"
+version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0db675bb885cb125a7e30154b38566de8e6a80bab4503b581ccc2650f017b42c"
+checksum = "65926630ac746f0f79e15241a3ba21a9c8a39dad5c12aa894a97b30448bdb8a5"
 dependencies = [
  "base64 0.22.1",
  "futures-util",
@@ -4030,9 +4030,9 @@ dependencies = [
 
 [[package]]
 name = "ldap3_lber"
-version = "0.8.0"
+version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fb39e3451d3a12b8111145eaa8ad91239861289ff2612b0a6129f9bfebc774d9"
+checksum = "cf85b08fb467260c0f8f305b30e819cf3e9584f0f50f2879fbec9bc58f639504"
 dependencies = [
  "bytes",
  "nom",
@@ -4040,9 +4040,9 @@ dependencies = [
 
 [[package]]
 name = "ldap3_proto"
-version = "0.8.0"
+version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "edb34344e5d28c9ac1c916d9471c80b2f5659c0e698cb75455c1324deeca9168"
+checksum = "105256b138a7ed84ac1ae375870eae23be5f8fed16ca172ae5f1c1aa37bd4242"
 dependencies = [
  "base64 0.22.1",
  "bytes",
@@ -5177,9 +5177,9 @@ dependencies = [
 
 [[package]]
 name = "pkg-config"
-version = "0.3.33"
+version = "0.3.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "19f132c84eca552bf34cab8ec81f1c1dcc229b811638f9d283dceabe58c5569e"
+checksum = "f6b464fbc74e149a392436b17d523f769e057cb6877f6a5c4618bc6f11800548"
 
 [[package]]
 name = "polyval"
@@ -7329,9 +7329,9 @@ dependencies = [
 
 [[package]]
 name = "uuid"
-version = "1.24.0"
+version = "1.25.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf3923a6f5c4c6382e0b653c4117f48d631ea17f38ed86e2a828e6f7412f5239"
+checksum = "f053576934f05a761a402421fbbe3d425d9366f75f978806a037b3ca481abecc"
 dependencies = [
  "getrandom 0.4.1",
  "js-sys",
