@@ -127,7 +127,7 @@ kanidmd_lib_macros = { path = "./server/lib-macros", version = "=1.5.0-dev" }
 kanidmd_testkit = { path = "./server/testkit", version = "=1.5.0-dev" }
 kanidm_build_profiles = { path = "./libs/profiles", version = "=1.5.0-dev" }
 kanidm_client = { path = "./libs/client", version = "=1.5.0-dev" }
-kanidm-hsm-crypto = "^0.3.6"
+kanidm-hsm-crypto = "^0.4.0"
 kanidm_lib_crypto = { path = "./libs/crypto", version = "=1.5.0-dev" }
 kanidm_lib_file_permissions = { path = "./libs/file_permissions", version = "=1.5.0-dev" }
 kanidm_proto = { path = "./proto", version = "=1.5.0-dev" }
@@ -137,7 +137,7 @@ scim_proto = { path = "./libs/scim_proto", version = "=1.5.0-dev" }
 sketching = { path = "./libs/sketching", version = "=1.5.0-dev" }
 
 anyhow = { version = "1.0.102" }
-argon2 = { version = "0.5.3", features = ["alloc"] }
+argon2 = { version = "0.6.0", features = ["alloc"] }
 askama = { version = "0.12.1", features = ["serde", "with-axum"] }
 askama_axum = { version = "0.5.0" }
 async-trait = "^0.1.89"
